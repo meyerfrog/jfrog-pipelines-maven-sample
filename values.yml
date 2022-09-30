@@ -1,4 +1,0 @@
-gitProvider: myGithub
-artifactory: demoArt
-repoPath: RjSH1/jfrog-pipelines-maven-sample
-deployerRepo: maven-local
