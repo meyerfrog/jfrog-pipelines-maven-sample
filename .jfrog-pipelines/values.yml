@@ -1,4 +1,4 @@
-gitProvider: rajGit
-artifactory: rajArt
+gitProvider: myGithub
+artifactory: myArtifactory
 repoPath: RjSH1/jfrog-pipelines-maven-sample
-deployerRepo: sam-maven-local
+deployerRepo: jfrog-maven-example
