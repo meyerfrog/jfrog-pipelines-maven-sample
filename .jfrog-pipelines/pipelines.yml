@@ -8,7 +8,7 @@ resources:
       path: {{ .Values.repoPath }}
       gitProvider: {{ .Values.gitProvider }}
 
-  - name: mvn_build_info
+  - name: mvn_build_info_v2
     type: BuildInfo
     configuration:
       sourceArtifactory: {{ .Values.artifactory }}
@@ -22,7 +22,7 @@ pipelines:
           deployerSnapshotRepo: {{ .Values.deployerRepo }}
           deployerReleaseRepo: {{ .Values.deployerRepo }}
           inputResources:
-            - name: mvn_repo
+            - name: mvn_repo_v2
           integrations:
             - name: {{ .Values.artifactory }}
 
