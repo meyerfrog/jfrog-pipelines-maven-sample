@@ -1,4 +1,4 @@
-gitProvider: rjGithub
+gitProvider: meyerJfrogGithub
 artifactory: myArtifactory
-repoPath: RjSH1/jfrog-pipelines-maven-sample
+repoPath: meyerfrog/jfrog-pipelines-maven-sample
 deployerRepo: jfrog-maven-example
