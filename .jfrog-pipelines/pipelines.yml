@@ -2,7 +2,7 @@ template: true   # required for local templates
 valuesFilePath: ./values.yml
 
 resources:
-  - name: mvn_repo
+  - name: mvn_repo_v2
     type: GitRepo
     configuration:
       path: {{ .Values.repoPath }}
